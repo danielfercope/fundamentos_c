@@ -7,12 +7,12 @@ int main ()
 	printf("Digite a letra para saber o sexo:\n");
 	scanf("%c", &letra);
 	fflush(stdin);
-	if (letra == 'f'){
+	if (letra == 'f' || letra == 'F'){
 		printf("FEMININO");
-	} else if (letra == 'm'){ // para char é aspas simples ''
+	} else if (letra == 'm' || letra = 'M'){ // para char Ã© aspas simples ''
 		printf("MASCULINO");
 	}else {
-		printf("SEXO INEXISTENTE, meu chapa!");
+		printf("SEXO INEXISTENTE!");
 	}
 
 	return 0;
